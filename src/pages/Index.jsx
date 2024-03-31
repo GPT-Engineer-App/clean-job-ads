@@ -85,7 +85,7 @@ const Index = () => {
           <ModalCloseButton />
           <ModalBody>
             <Text mb={4}>{selectedJob?.description}</Text>
-            <Image src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxlbXBsb3llZSUyMHBvcnRyYWl0fGVufDB8fHx8MTcxMTg1NTU2N3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Employee" mb={4} />
+            <Image src="https://source.unsplash.com/random/?portrait%20professional" alt="Employee" mb={4} />
             <HStack>
               <Button colorScheme="blue">Apply</Button>
               <Button onClick={handleCloseModal}>Close</Button>
